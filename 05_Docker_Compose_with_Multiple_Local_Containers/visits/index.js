@@ -27,4 +27,5 @@ app.get("/crash", (req, res) => {
 
 app.listen(8081, () => {
   console.log("Listening on port 8081 locally and 4001 externally");
+  console.log("Use /crash endpoint to crash");
 });
